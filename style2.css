@@ -1,0 +1,6 @@
+book {display: block;}
+Title{ margin-left: 20pt;font-family:times New Roman;color:red;font-style:italic;font-size:15pt}
+Author{ margin-left: 20pt;font-family:times New Roman;color:yellow;font-style:italic;font-size:15pt}
+Year{ margin-left: 20pt;font-family:calibari;color:green;font-style:italic;font-size:15pt}
+price {margin-left: 20pt;font-family:times New Roman;color:red;font-style:italic;font-size:15pt}
+
