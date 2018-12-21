@@ -1,0 +1,200 @@
+﻿<html>
+<head>
+<style>
+* { 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+-o-box-sizing: border-box; 
+box-sizing: border-box; 
+
+-webkit-transition: .25s ease-in-out; 
+-moz-transition: .25s ease-in-out; 
+-o-transition: .25s ease-in-out; 
+transition: .25s ease-in-out; 
+margin: 0; 
+padding: 0; 
+-webkit-text-size-adjust: none; 
+} 
+
+
+
+html,body { 
+height: 100%; 
+overflow: hidden; 
+} 
+
+
+
+#drawer-toggle { 
+position: absolute; 
+opacity: 0; 
+}
+
+#drawer-toggle-label { 
+-webkit-touch-callout: none; 
+-webkit-user-select: none; 
+-khtml-user-select: none; 
+-moz-user-select: none; 
+-ms-user-select: none; 
+user-select: none; 
+left: 0px; 
+height:50px; 
+width: 50px; 
+display: block; 
+position: fixed; 
+ background: rgba(255,255,255,.0);
+z-index: 1; 
+} 
+
+ 
+
+#drawer-toggle-label:before { 
+content: ''; 
+display: block; 
+position: absolute; 
+height: 2px; 
+width: 24px; 
+background: #8d8d8d; 
+left: 13px; 
+top: 18px; 
+box-shadow: 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d; 
+} 
+
+header { 
+width: 100%; 
+position: fixed; 
+left: 0px; 
+background: #efefef; 
+padding: 10px 10px 10px 50px; 
+font-size: 30px; 
+line-height: 30px; 
+z-index: 0; 
+}
+
+
+
+#drawer { 
+position: fixed; 
+top: 0; 
+left:-300px; 
+height: 100%; 
+width: 300px; 
+background: #2f2f2f; 
+overflow-x: hidden; 
+overflow-y: scroll; 
+padding: 20px; 
+-webkit-overflow-scrolling: touch; 
+} 
+
+
+
+#page-content { 
+margin-left: 0px; 
+margin-top: 50px; 
+width: 100%; 
+height: calc(100% - 50px); 
+overflow-x:hidden; 
+overflow-y:scroll; 
+-webkit-overflow-scrolling: touch; 
+padding: 20px; 
+}
+
+
+
+#drawer-toggle:checked ~ #drawer-toggle-label { 
+height: 100%; 
+width: calc(100% - 300px); 
+background: rgba(255,255,255,.8); 
+} 
+
+#drawer-toggle:checked ~ #drawer-toggle-label, 
+#drawer-toggle:checked ~ header { 
+left: 300px; 
+} 
+
+#drawer-toggle:checked ~ #drawer { 
+left: 0px; 
+} 
+
+#drawer-toggle:checked ~ #page-content { 
+margin-left: 300px; 
+}
+
+
+
+#drawer ul { 
+list-style-type:none; 
+} 
+
+#drawer ul a { 
+display:block; 
+padding:10px; 
+color:#c7c7c7; 
+text-decoration:none; 
+} 
+
+#drawer ul a:hover { 
+color:white; 
+} 
+
+
+
+@media all and (max-width:350px) { 
+
+#drawer-toggle:checked ~ #drawer-toggle-label { 
+height: 100%; 
+width: 50px; 
+} 
+
+#drawer-toggle:checked ~ #drawer-toggle-label, 
+#drawer-toggle:checked ~ header { 
+left: calc(100% - 50px); 
+} 
+
+#drawer-toggle:checked ~ #drawer { 
+width: calc(100% - 50px); 
+padding: 20px; 
+} 
+
+#drawer-toggle:checked ~ #page-content { 
+margin-left: calc(100% - 50px); 
+} 
+
+}
+
+body {
+background: url("Child-Labour.jpg");
+background-repeat: no-repeat;
+background-size: 1400px 1000px;
+}
+h1 {
+position: absolute;
+    top: 0px;
+    left: 377px;
+    font-family:Impact;
+    font-size:50px;
+    color:Lovely Purple;
+}
+img { border:gold 2px double; }
+</style> </head>
+<body>
+   <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+   <label for="drawer-toggle" id="drawer-toggle-label"></label>
+  <h1> INTRODUCTION TO CHILD LABOUR </H1>
+   <nav id="drawer">
+      <ul>
+         <li><a href="no1.html">HOME </a></li>
+         <li><a href="no4.htm">HISTORY OF CHILD LABOUR
+</a></li>
+         <li><a href="no5.html">ITS CAUSES</a></li>
+         <li><a href="no6.html">ELIMINATING IT</a></li>
+      </ul>
+   </nav>
+   <div id="page-content">
+     <font color="white" size="5" face="comic sans ms"> <p> <img src="ccc.jpg" height="300px" width="400px" align="right" hspace="15">Child labour, employment of children of less than a legally specified age. In Europe, North America, Australia, and New Zealand, children under age 15 rarely work except in commercial agriculture, because of the effective enforcement of laws passed in the first half of the 20th century. In the United States, for example, the Fair Labor Standards Act of 1938 set the minimum age at 14 for employment outside of school hours in nonmanufacturing jobs, at 16 for employment during school hours in interstate commerce, and at 18 for occupations deemed hazardous.</p>
+<p> Child labour is far more prevalent in developing countries where millions of children—some as young as seven—still toil in quarries, mines, factories, fields, and service enterprises. They make up more than 10 percent of the labour force in some countries in the Middle East and from 2 to 10 percent in much of Latin America and some parts of Asia. Few, if any, laws govern their employment or the conditions under which work is performed. Restrictive legislation is rendered impractical by family poverty and lack of schools. </p>
+<p> The movement to regulate child labour began in Great Britain at the close of the 18th century, when the rapid development of large-scale manufacturing made possible the exploitation of young children in mining and industrial work. The first law, in 1802, which was aimed at controlling the apprenticeship of pauper children to cotton-mill owners, was ineffective because it did not provide for enforcement. In 1833 the Factory Act did provide a system of factory inspection. </p>
+<p> Organized international efforts to regulate child labour began with the first International Labour Conference in Berlin in 1890. Although agreement on standards was not reached at that time, similar conferences and other international moves followed. In 1900 the International Association for Labour Legislation was established at Basel, Switz., to promote child labour provisions as part of other international labour legislation. A report published by the International Labour Organisation (ILO) of the United Nations in 1960 on law and practice among more than 70 member nations showed serious failures to protect young workers in nonindustrial jobs, including agriculture and handicrafts. One of the ILO’s current goals is to identify and resolve the “worst forms” of child labour; these are defined as any form of labour that negatively impacts a child’s normal development. In 1992 the International Programme on the Elimination of Child Labour (IPEC) was created as a new department of the ILO. Through programs it operates around the world, IPEC seeks the removal of children from hazardous working conditions and the ultimate elimination of child labour. </p> </font>
+   </div>
+</body>
+</html>
